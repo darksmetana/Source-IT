@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,28 +8,23 @@
 </head>
 <body>
 	<?php
-		$file = array('index' => 'index.php', 'about' => 'about.php', 'cont' => 'contacts.php', 'mt' => 'multi_table.php', 'calc' => 'calculator.php', );
+		$file = array('index' => 'includes/index.php', 'about' => 'includes/about.php', 'cont' => 'includes/contacts.php', 'mt' => 'includes/multi_table.php', 'calc' => 'includes/calculator.php');
 	?>
 	<table border="1" width="600">
 		<tr><td colspan="2">header</td></tr>
 		<tr><td>
 		<table border="1" width="100%">
-			<tr><td><a href="<?php $_GET['index'] ?>">Main</a></td></tr>
-			<tr><td><a href="#">About</a></td></tr>
-			<tr><td><a href="#">Contacts</a></td></tr>
-			<tr><td><a href="#">Multiple table</a></td></tr>
-			<tr><td><a href="#">Calculator</a></td></tr>
+			<tr><td><a href="includes/index.php">Main</a></td></tr>
+			<tr><td><a href="includes/index.php?includes=about">About</a></td></tr>
+			<tr><td><a href="includes/index.php">Contacts</a></td></tr>
+			<tr><td><a href="includes/index.php">Multiple table</a></td></tr>
+			<tr><td><a href="includes/index.php">Calculator</a></td></tr>
 		</table>
 		</td>
-		<td><?php include '$file';?></td></tr>
+		<td><?php include($_GET['includes']);?></td></tr>
 		<tr><td colspan="2">footer</td></tr>
 	</table>
-
 	<?php 
-
 	?>
-	
 </body>
 </html>
-
-
