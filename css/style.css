@@ -1,0 +1,24 @@
+* {
+	margin: 0 auto;
+}
+
+.main {
+	margin-top: 30px;
+}
+
+/*#log {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}*/
+
+.logout {
+	position: absolute;
+	right: 131px;
+	top: 86px;
+}
+.txt {
+	position: absolute;
+	right: 123px;
+	top: 20px;
+}
