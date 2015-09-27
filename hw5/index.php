@@ -17,7 +17,7 @@
 		error_reporting(E_ALL);
 	?>
 	<div class="form">
-		<form action="test.php" method="post">
+		<form action="/hw5/test.php" method="post">
 			Введите Вашу страну:<br>
 			<input type="text" name="country" required><br>
 			<input type="submit" value="Отправить">
@@ -26,7 +26,7 @@
 			<br>
 			<hr>
 			<br>
-		<form action="test.php" method="post">
+		<form action="/hw5/test.php" method="post">
 			<input type="submit" name="age" value="Установить куку на 1 час"><br>
 			<input type="submit" name="age1" value="Установить куку на 3 часа"><br>
 			<input type="submit" name="age2" value="Установить куку на день"><br>
@@ -39,7 +39,7 @@
 			<br>
 			<hr>
 			<br>
-		<form action="test.php" method="post">
+		<form action="/hw5/test.php" method="post">
 			<input type="text" name="set_name">
 			<input type="submit" name="set_cookie" value="Установить куку">
 			<br><br>
@@ -93,7 +93,7 @@
 		<div class="product">
 			<div class="p_img"><img src="/img/p-1.jpg" alt="" class="img"></div>
 			<div class="p_price"><?php echo "Цена: " . $price1; ?></div>
-			<form action="index.php" method="get">
+			<form action="/hw5/index.php" method="get">
 				<input type="hidden" name="p_name1" value="Товар 1">Товар 1<br>
 				<input type="submit" name="addtocart1" value="Добавить в корзину">
 			</form>
@@ -101,7 +101,7 @@
 		<div class="product">
 			<div class="p_img"><img src="/img/p-2.jpg" alt="" class="img"></div>
 			<div class="p_price"><?php echo "Цена: " . $price2; ?></div>
-			<form action="index.php" method="get">
+			<form action="/hw5/index.php" method="get">
 				<input type="hidden" name="p_name2" value="Товар 2">Товар 2<br>
 				<input type="submit" name="addtocart2" value="Добавить в корзину">
 			</form>
@@ -109,7 +109,7 @@
 		<div class="product">
 			<div class="p_img"><img src="/img/p-3.jpg" alt="" class="img"></div>
 			<div class="p_price"><?php echo "Цена: " . $price3; ?></div>
-			<form action="index.php" method="get">
+			<form action="/hw5/index.php" method="get">
 				<input type="hidden" name="p_name3" value="Товар 3">Товар 3<br>
 				<input type="submit" name="addtocart3" value="Добавить в корзину">
 			</form>
@@ -117,7 +117,7 @@
 		<div class="product">
 			<div class="p_img"><img src="/img/p-4.jpg" alt="" class="img"></div>
 			<div class="p_price"><?php echo "Цена: " . $price4; ?></div>
-			<form action="index.php" method="get">
+			<form action="/hw5/index.php" method="get">
 				<input type="hidden" name="p_name4" value="Товар 4">Товар 4<br>
 				<input type="submit" name="addtocart4" value="Добавить в корзину">
 			</form>
@@ -125,7 +125,7 @@
 		<div class="product">
 			<div class="p_img"><img src="/img/p-5.jpg" alt="" class="img"></div>
 			<div class="p_price"><?php echo "Цена: " . $price5; ?></div>
-			<form action="index.php" method="get">
+			<form action="/hw5/index.php" method="get">
 				<input type="hidden" name="p_name5" value="Товар 5">Товар 5<br>
 				<input type="submit" name="addtocart5" value="Добавить в корзину">
 			</form>
@@ -185,7 +185,7 @@
 				}
 				echo $banner;
 			?>
-				<form action="index.php" method="post">
+				<form action="/hw5/index.php" method="post">
 					<input type="submit" name="hide_banner" value="Не показывать баннер">
 				</form>
 			
